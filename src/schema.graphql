@@ -7,5 +7,15 @@ type User {
 }
 type Pokemon {
     name: String
-    url: String
+    weight: Int
+    height: Int
+    baseExperience: Int
+    abilities: [Ability]
+    moves: [Move]
+}
+type Ability {
+    name: String
+}
+type Move {
+    name: String
 }
