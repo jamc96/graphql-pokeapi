@@ -1,0 +1,11 @@
+type Query  { 
+    getPokemons: [Pokemon]
+}
+type User {
+    name: String
+    lastname: String
+}
+type Pokemon {
+    name: String
+    url: String
+}
